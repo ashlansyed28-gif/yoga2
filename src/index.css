@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --color-linen: #F9F6F0;
+  --color-linen-muted: #F3EFE7;
+  --color-linen-border: #E8E1D5;
+  --color-twilight: #12161A;
+  --color-twilight-card: #1B2127;
+  --color-twilight-border: #2A333C;
+  --color-terracotta: #D4A373;
+  --color-terracotta-dark: #B88554;
+  --color-lotus: #E0AFA0;
+  --color-sage: #CCD5AE;
+  --color-sage-dark: #6C7A4D;
+  --color-earth-dark: #26221E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background-color: #F9F6F0;
+  color: #26221E;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom serene breathing keyframes */
+@keyframes pranaPulse {
+  0%, 100% {
+    transform: scale(0.9);
+    opacity: 0.75;
+  }
+  50% {
+    transform: scale(1.14);
+    opacity: 1;
+  }
+}
+
+.animate-prana {
+  animation: pranaPulse 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}

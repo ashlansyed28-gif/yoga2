@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Syed Karishma — Yoga Sanctuary & Holistic Clinic",
+  "description": "A calm, divine digital sanctuary for therapeutic yoga, 1-on-1 holistic mentorship, mindful body-breath alignment, and sacred clinical appointments with Dr. Syed Karishma.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
